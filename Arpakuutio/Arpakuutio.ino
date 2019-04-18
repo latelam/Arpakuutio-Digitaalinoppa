@@ -37,7 +37,7 @@ void loop() {
   int tila = digitalRead(NAPPI);
   
   if (tila == NAPPIPAINETTU) {
-  tone(kajari, 200, 50);
+  tone(kajari, 200, 50);                      // taajuus(Hz), kesto
   randNumero = random(1, 7);                  // tulostaa numeron 1:stä 6:seen.
   Serial.print("Noppa: ");
   Serial.println(randNumero);
