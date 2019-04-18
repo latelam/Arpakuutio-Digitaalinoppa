@@ -9,6 +9,7 @@ const int LED7 = 7;
 #define LEDOFF LOW 
 const int NAPPI = 5;
 #define NAPPIPAINETTU LOW
+int kajari = 3;
 
 long randNumero;
 
@@ -36,6 +37,7 @@ void loop() {
   int tila = digitalRead(NAPPI);
   
   if (tila == NAPPIPAINETTU) {
+  tone(kajari, 200, 50);
   randNumero = random(1, 7);                  // tulostaa numeron 1:stä 6:seen.
   Serial.print("Noppa: ");
   Serial.println(randNumero);
