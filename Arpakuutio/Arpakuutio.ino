@@ -9,7 +9,7 @@ const int LED7 = 7;
 #define LEDOFF LOW 
 const int NAPPI = 5;
 #define NAPPIPAINETTU LOW
-int kajari = 3;
+const int kajari = 3;
 
 long randNumero;
 
@@ -154,6 +154,8 @@ void demoMode() {
   digitalWrite(LED5, LEDON);
   digitalWrite(LED6, LEDON);
   digitalWrite(LED7, LEDON);
+  Serial.println("Noppa käynnistyy: ");
+  Serial.println("......6");
   delay(750);
   tone(kajari, 200, 50);
   digitalWrite(LED1, LEDON);
@@ -163,6 +165,7 @@ void demoMode() {
   digitalWrite(LED5, LEDON);
   digitalWrite(LED6, LEDOFF);
   digitalWrite(LED7, LEDON);
+  Serial.println(".....5");
   delay(750);
   tone(kajari, 200, 50);
   digitalWrite(LED1, LEDOFF);
@@ -172,6 +175,7 @@ void demoMode() {
   digitalWrite(LED5, LEDON);
   digitalWrite(LED6, LEDOFF);
   digitalWrite(LED7, LEDON);
+  Serial.println("....4");
   delay(750);
   tone(kajari, 200, 50);
   digitalWrite(LED1, LEDON);
@@ -181,6 +185,7 @@ void demoMode() {
   digitalWrite(LED5, LEDOFF);
   digitalWrite(LED6, LEDOFF);
   digitalWrite(LED7, LEDON);
+  Serial.println("...3");
   delay(750);
   tone(kajari, 200, 50);
   digitalWrite(LED1, LEDOFF);
@@ -190,6 +195,7 @@ void demoMode() {
   digitalWrite(LED5, LEDOFF);
   digitalWrite(LED6, LEDOFF);
   digitalWrite(LED7, LEDON);
+  Serial.println("..2");
   delay(750);
   tone(kajari, 200, 50);
   digitalWrite(LED1, LEDON);
@@ -199,6 +205,7 @@ void demoMode() {
   digitalWrite(LED5, LEDOFF);
   digitalWrite(LED6, LEDOFF);
   digitalWrite(LED7, LEDOFF);
+  Serial.println(".1");
   delay(650);
   tone(kajari, 500, 2000);
   digitalWrite(LED1, LEDOFF);
@@ -208,6 +215,7 @@ void demoMode() {
   digitalWrite(LED5, LEDOFF);
   digitalWrite(LED6, LEDOFF);
   digitalWrite(LED7, LEDOFF);
+  Serial.println("LET'S PLAY !!!");
   delay(150);
   digitalWrite(LED1, LEDON);
   digitalWrite(LED2, LEDON);
