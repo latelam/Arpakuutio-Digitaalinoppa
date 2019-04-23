@@ -145,7 +145,8 @@ void noppa() {
 void demoMode() {
 
   int viive = 120;
-  
+
+  tone(kajari, 200, 50);
   digitalWrite(LED1, LEDOFF);
   digitalWrite(LED2, LEDON);
   digitalWrite(LED3, LEDON);
@@ -154,6 +155,7 @@ void demoMode() {
   digitalWrite(LED6, LEDON);
   digitalWrite(LED7, LEDON);
   delay(750);
+  tone(kajari, 200, 50);
   digitalWrite(LED1, LEDON);
   digitalWrite(LED2, LEDON);
   digitalWrite(LED3, LEDOFF);
@@ -162,6 +164,7 @@ void demoMode() {
   digitalWrite(LED6, LEDOFF);
   digitalWrite(LED7, LEDON);
   delay(750);
+  tone(kajari, 200, 50);
   digitalWrite(LED1, LEDOFF);
   digitalWrite(LED2, LEDON);
   digitalWrite(LED3, LEDOFF);
@@ -170,6 +173,7 @@ void demoMode() {
   digitalWrite(LED6, LEDOFF);
   digitalWrite(LED7, LEDON);
   delay(750);
+  tone(kajari, 200, 50);
   digitalWrite(LED1, LEDON);
   digitalWrite(LED2, LEDON);
   digitalWrite(LED3, LEDOFF);
@@ -178,6 +182,7 @@ void demoMode() {
   digitalWrite(LED6, LEDOFF);
   digitalWrite(LED7, LEDON);
   delay(750);
+  tone(kajari, 200, 50);
   digitalWrite(LED1, LEDOFF);
   digitalWrite(LED2, LEDON);
   digitalWrite(LED3, LEDOFF);
@@ -186,6 +191,7 @@ void demoMode() {
   digitalWrite(LED6, LEDOFF);
   digitalWrite(LED7, LEDON);
   delay(750);
+  tone(kajari, 200, 50);
   digitalWrite(LED1, LEDON);
   digitalWrite(LED2, LEDOFF);
   digitalWrite(LED3, LEDOFF);
@@ -193,7 +199,8 @@ void demoMode() {
   digitalWrite(LED5, LEDOFF);
   digitalWrite(LED6, LEDOFF);
   digitalWrite(LED7, LEDOFF);
-  delay(750);
+  delay(650);
+  tone(kajari, 500, 2000);
   digitalWrite(LED1, LEDOFF);
   digitalWrite(LED2, LEDOFF);
   digitalWrite(LED3, LEDOFF);
@@ -201,7 +208,7 @@ void demoMode() {
   digitalWrite(LED5, LEDOFF);
   digitalWrite(LED6, LEDOFF);
   digitalWrite(LED7, LEDOFF);
-  delay(500);
+  delay(150);
   digitalWrite(LED1, LEDON);
   digitalWrite(LED2, LEDON);
   digitalWrite(LED3, LEDON);
