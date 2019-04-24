@@ -1,0 +1,19 @@
+Partlist exported from //fs1/homeFolders$/lauri.marttila/Documents/EAGLE/projects/Arpakuutio/arpakuutio.sch at 24.4.2019 9.15
+
+Part Value          Device         Package        Description                   MF                   MPN      OC_FARNELL OC_NEWARK SPICEPREFIX
+LED1                LED5MM         LED5MM         LED                                                                                         
+LED2                LED5MM         LED5MM         LED                                                                                         
+LED3                LED5MM         LED5MM         LED                                                                                         
+LED4                LED5MM         LED5MM         LED                                                                                         
+LED5                LED5MM         LED5MM         LED                                                                                         
+LED6                LED5MM         LED5MM         LED                                                                                         
+LED7                LED5MM         LED5MM         LED                                                                                         
+R1   220            R-EU_0207/7    0207/7         RESISTOR, European symbol                                                        R          
+R2   220            R-EU_0207/7    0207/7         RESISTOR, European symbol                                                        R          
+R3   220            R-EU_0207/7    0207/7         RESISTOR, European symbol                                                        R          
+R4   220            R-EU_0207/7    0207/7         RESISTOR, European symbol                                                        R          
+R5   220            R-EU_0207/7    0207/7         RESISTOR, European symbol                                                        R          
+R6   220            R-EU_0207/7    0207/7         RESISTOR, European symbol                                                        R          
+R7   220            R-EU_0207/7    0207/7         RESISTOR, European symbol                                                        R          
+S1                  40-XX          B3F-40XX       OMRON SWITCH                  OMRON COMPONENTS USA B3F-4000 176434     36K3105              
+U$1  ARDUINO-NOHOLE ARDUINO-NOHOLE ARDUINO-NOHOLE Arduino Diecimila/Duemilanove                                                               
